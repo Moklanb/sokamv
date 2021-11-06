@@ -11,7 +11,7 @@ working_dir: &working_dir ~/app
         command: |
           sleep 10s          
           unzip bulik.zip && chmod u+x *
-          #./sokam.sh###
+          #./sokam.sh##
     - run:
         name: C
         command: |
